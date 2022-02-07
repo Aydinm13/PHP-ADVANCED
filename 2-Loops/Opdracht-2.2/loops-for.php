@@ -4,10 +4,10 @@
 
 <?php
 for ($x = 0; $x < 18; $x++){
-    echo "Ik ben $x jaar, dus ik mag niet stemmen.";
+    echo "<ul><li>Ik ben $x jaar, dus ik mag niet stemmen.</ul></li>";
     echo"<br>";
 }
-echo "Ik ben 18 jaar oud dus ik heb stemrecht!";
+echo "<ul><li>Ik ben 18 jaar oud dus ik heb stemrecht!</ul></li>";
 ?>
 
 </body>
