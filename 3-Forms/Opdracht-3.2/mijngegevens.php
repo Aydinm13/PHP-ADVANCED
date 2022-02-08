@@ -27,5 +27,6 @@ echo $_POST["color"];
         background-color: <?php echo $_POST["color"];?>;
     }
 </style>
+
 </body>
 </html>
