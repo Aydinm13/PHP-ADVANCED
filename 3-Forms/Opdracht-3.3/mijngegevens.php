@@ -7,16 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-<form name id="muziek" action = "mijngegevens.php" method="get">
 
-<button>
-<a href="mijngegevens.php?
-artiest=stormzy&
-titel=clash&
-Jaarvanuitkomst=2021&
-muzieksoort=rap">Klik</a>
-</button>
 
-</form>
+<ol>
+  <li>Artiest: <?php echo $_GET['artiest'] ?></li>
+  <li>Titel: <?php echo $_GET['titel']?></li>
+  <li>Jaar van uitkomst: <?php echo $_GET['Jaarvanuitkomst']?></li>
+  <li>Muzieksoort: <?php echo $_GET['muzieksoort']?></li>
+</ol>
+
 </body>
 </html>
